@@ -2,6 +2,12 @@
 @author: Christ Solèr
 @edited: 15.11.2023
 
+---
+
+#AMSS Application
+AMSS is a application project for FFHS (CH), this project includes a Learning Plattform fitted for the university.
+----Additional Information needs to be added----
+
 # Used technologies
 - Java version 17
 - MySQL
