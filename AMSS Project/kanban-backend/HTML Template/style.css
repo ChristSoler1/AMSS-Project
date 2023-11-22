@@ -1,0 +1,303 @@
+.frame {
+  background-color: #344C11;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #344C11;
+  width: 2068px;
+  height: 3835px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.frame .navigation-and-title {
+  position: fixed;
+  width: 1928px;
+  height: 113px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  top: 40px;
+}
+
+.frame .title {
+  display: flex;
+  flex-direction: column;
+  width: 1544px;
+  height: 99px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 384px;
+  background-color: #AEC09A;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+
+.frame .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "72 Monospace-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--gray-9-white);
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+.frame .home-button {
+  display: flex;
+  flex-direction: column;
+  width: 99px;
+  height: 99px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FDDB93;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.frame .img {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.frame .user-button {
+  display: flex;
+  flex-direction: column;
+  width: 99px;
+  height: 99px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 117px;
+  background-color: #F8F5E2;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.frame .search-button {
+  display: flex;
+  flex-direction: column;
+  width: 99px;
+  height: 99px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 237px;
+  background-color: #DCE9BD;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.frame .module-group {
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  width: 1936px;
+  height: 835px;
+}
+
+.frame .row-title {
+  position: absolute;
+  width: 1936px;
+  height: 99px;
+  top: 0;
+  left: 0;
+}
+
+.frame .learned-column {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  height: 99px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 1568px;
+  background-color: #AEC09A;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "72 Monospace-Bold", Helvetica;
+  font-weight: 700;
+  color:   rgb(125, 124, 124);
+  font-size: 37px;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+.frame .finished-column {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  height: 99px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 1176px;
+  background-color: #C0DFB1;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.frame .inprogress-column {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  height: 99px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 784px;
+  background-color: #DCE9BD;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.frame .opentask-column {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  height: 99px;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 392px;
+  background-color: #F8F5E2;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.frame .module-column {
+  width: 368px;
+  height: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:  #FDDB93;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.frame .row-two-carts {
+  position: absolute;
+  width: 1928px;
+  height: 679px;
+  top: 156px;
+  left: 4px;
+}
+
+.frame .cards-for-learned {
+  width: 368px;
+  left: 1560px;
+  position: absolute;
+  height: 679px;
+  top: 0;
+  background-color: #AEC09A;
+  border-radius: 16px;
+}
+
+.frame .cards-for-finished {
+  width: 360px;
+  left: 1168px;
+  position: absolute;
+  height: 679px;
+  top: 0;
+  background-color: #C0DFB1;
+  border-radius: 16px;
+}
+
+.frame .cards-for-inprogress {
+  position: absolute;
+  width: 360px;
+  height: 679px;
+  top: 0;
+  left: 776px;
+  background-color: #DCE9BD;
+  border-radius: 16px;
+}
+
+.frame .cards-for-opentask {
+  position: absolute;
+  width: 368px;
+  height: 679px;
+  top: 0;
+  left: 384px;
+  background-color: #F8F5E2;
+  border-radius: 16px;
+}
+
+.frame .module-name {
+  width: 360px;
+  height: 679px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FDDB93;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.frame .module-group-2 {
+  top: 1199px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  width: 1936px;
+  height: 835px;
+}
+
+.frame .module-group-3 {
+  top: 2079px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  width: 1936px;
+  height: 835px;
+}
