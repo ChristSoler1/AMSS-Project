@@ -1,0 +1,81 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./resources/bg.jpg');
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.popup {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Set a high z-index value */
+}
+
+.popup-content {
+  width: 700px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.popup-content.scaled {
+  transform: scale(0);
+}
+
+.frame .navigation-and-title {
+  position: fixed;
+  width: 100%;
+  height: 113px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #330808;
+}
+
+.frame .title {
+  width: 100%;
+  padding: 24px;
+  background-color: #aec09a;
+  border-radius: 16px;
+  text-align: center;
+  z-index: 2; /* Set a value higher than the popup */
+}
+
+.frame .text-wrapper {
+  font-family: "72 Monospace-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  .frame .title {
+    padding: 16px;
+  }
+
+  .frame .text-wrapper {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
